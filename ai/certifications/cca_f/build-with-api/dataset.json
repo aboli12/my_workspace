@@ -1,14 +1,17 @@
 [
   {
-    "task": "Extract the AWS region from an S3 bucket ARN (e.g., 'arn:aws:s3:::my-bucket-us-east-1')",
-    "format": "regex"
+    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message. The log format is: '[TIMESTAMP] [LEVEL] Message content here'",
+    "format": "regex",
+    "solution_criteria": "The regex should correctly capture three groups: timestamp (ISO 8601 format), log level (ERROR, WARN, INFO, DEBUG), and the message text. Should handle multi-word messages and special characters."
   },
   {
-    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message",
-    "format": "python"
+    "task": "Create a JSON configuration object for an AWS S3 bucket policy that allows public read access to all objects in the bucket named 'my-public-bucket'",
+    "format": "json",
+    "solution_criteria": "Valid JSON with correct AWS S3 bucket policy structure, including Version, Statement array with proper Effect, Principal, Action, and Resource fields. Should follow AWS policy document format."
   },
   {
-    "task": "Create a valid AWS IAM policy JSON that allows read-only access to a specific S3 bucket",
-    "format": "json"
+    "task": "Write a Python function that takes an AWS EC2 instance ID string and returns True if it matches the valid AWS instance ID format (i-followed by 8 or 17 hexadecimal characters), False otherwise",
+    "format": "python",
+    "solution_criteria": "Function should validate instance IDs like 'i-1234567890abcdef0' and 'i-12345678', reject invalid formats, and handle edge cases like None or empty strings gracefully."
   }
 ]
