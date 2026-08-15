@@ -1,11 +1,14 @@
 [
   {
-    "task": "Write a Python function that parses an AWS CloudFormation template (JSON string) and returns a list of all EC2 instance logical IDs defined in the Resources section."
+    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message using a regular expression",
+    "format": "regex"
   },
   {
-    "task": "Create a JSON policy document for an AWS IAM role that allows a Lambda function to read objects from a specific S3 bucket named 'my-data-bucket' and write CloudWatch logs."
+    "task": "Create a JSON configuration file for an AWS Lambda function that specifies runtime, handler, timeout, and memory allocation",
+    "format": "json"
   },
   {
-    "task": "Write a regular expression that matches and extracts the AWS region from an S3 bucket ARN in the format: arn:aws:s3:::bucket-name or arn:aws:s3:region:account-id:bucket/bucket-name"
+    "task": "Write a Python function that takes an AWS S3 bucket name and key as parameters and returns a presigned URL valid for 1 hour",
+    "format": "python"
   }
 ]
