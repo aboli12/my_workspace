@@ -1,0 +1,23 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Marathon Training\n\nHere is a one-day meal plan for an athlete aiming to carb-load for a high-intensity 2-hour marathon training run:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (110g), Fat (80g), Carbs (430g)\n\n## Meal Plan:\n\n* **Breakfast (6:30 AM):** Oatmeal (100g dry weight) with banana (150g), sunflower seeds (20g), and honey (20g). Whole milk (240ml).\n  * Protein: 14g, Fat: 8g, Carbs: 85g\n\n* **Pre-Run Snack (8:30 AM - 30 min before run):** White bread (60g) with jam (30g) and chia seeds (10g). Orange juice (250ml).\n  * Protein: 6g, Fat: 3g, Carbs: 75g\n\n* **Post-Run Snack (11:00 AM - within 30 min of finishing):** Chocolate milk (500ml) with a rice cake (35g) and banana (120g).\n  * Protein: 18g, Fat: 8g, Carbs: 95g\n\n* **Lunch (1:00 PM):** Lentil and vegetable soup (400ml) made with red lentils (80g dry), carrots (80g), celery (50g), and vegetable broth. Whole wheat bread (80g) with olive oil (10ml).\n  * Protein: 20g, Fat: 12g, Carbs: 85g\n\n* **Afternoon Snack (4:00 PM):** Greek yogurt (200g, plain) with granola (40g), berries (100g), and honey (15g).\n  * Protein: 18g, Fat: 6g, Carbs: 55g\n\n* **Dinner (7:00 PM):** Chickpea curry (chickpeas 150g cooked) with spinach (150g), tomatoes (100g), onions (60g), and coconut milk (100ml). Basmati rice (120g cooked).\n  * Protein: 20g, Fat: 28g, Carbs: 80g\n\n* **Evening Snack (9:00 PM):** Smoothie with plant-based protein powder (25g), mango (150g), and oat milk (240ml).\n  * Protein: 14g, Fat: 15g, Carbs: 55g\n\nThis meal plan prioritizes easily digestible carbohydrates for glycogen loading, includes adequate plant-based protein sources, and strategically times carbs around the training session for optimal endurance performance while accommodating vegetarian and nut-free restrictions.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training day with high-intensity 2-hour run session; need carb-loading for endurance performance",
+        "restrictions": "Vegetarian, no nuts"
+      },
+      "solution_criteria": [
+        "Meal plan totals 3,500+ calories with carbohydrates comprising 55-65% of total calories",
+        "Includes pre-workout meal (1-2 hours before run) with easily digestible carbs and minimal fiber/fat",
+        "Includes post-workout meal (within 30-60 minutes after run) with carbs and protein for recovery",
+        "All meals are vegetarian and nut-free"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-performance endurance athlete (marathon runner) requiring 3,500+ calories with specific carb-loading ratios and timing around training windows"
+    },
+    "score": 5,
+    "reasoning": "The solution meets all three mandatory requirements with clear presentation of daily totals, macronutrient breakdown, and detailed meal timing. However, it fails to meet two of the four secondary criteria: the caloric total is 300 calories short of the 3,500+ minimum, and carbohydrate percentage (53.75%) falls below the 55-65% target range. The pre-run snack also includes chia seeds which contradict the principle of 'easily digestible carbs and minimal fiber' for pre-workout nutrition. These are significant deficiencies in meeting the stated criteria, though the solution demonstrates good understanding of athlete nutrition principles and proper meal timing."
+  }
+]

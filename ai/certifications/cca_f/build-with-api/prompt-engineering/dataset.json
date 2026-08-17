@@ -1,0 +1,18 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training day with high-intensity 2-hour run session; need carb-loading for endurance performance",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan totals 3,500+ calories with carbohydrates comprising 55-65% of total calories",
+      "Includes pre-workout meal (1-2 hours before run) with easily digestible carbs and minimal fiber/fat",
+      "Includes post-workout meal (within 30-60 minutes after run) with carbs and protein for recovery",
+      "All meals are vegetarian and nut-free"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-performance endurance athlete (marathon runner) requiring 3,500+ calories with specific carb-loading ratios and timing around training windows"
+  }
+]
